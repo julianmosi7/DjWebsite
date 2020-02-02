@@ -1,0 +1,21 @@
+.container{
+     text-align: center;
+ }
+
+.gigs{
+    text-align: center;
+}
+#ig{
+    margin-top: 0;
+    margin-left: 4rem;
+}
+
+.MainMenue ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.MainMenue li{
+    margin: 1rem;
+
+}

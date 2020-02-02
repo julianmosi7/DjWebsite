@@ -1,0 +1,58 @@
+.container{
+    text-align: center;
+}
+
+ul,
+li {
+    margin: 0.1em;
+    padding: 0.1em;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    width: 45%;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* Bild passt sich an verfügbaren Raum im li an´ */
+}
+
+button {
+    padding: 0.1em;
+}
+/* Large screens */
+
+@media all and (min-width: 35em) {
+    li {
+        width: 10em;
+    }
+    button {
+        padding: 0.1em;
+        width: 10em;
+        height: 7.5em;
+        position: relative;
+    }
+    button img {
+        border: 0;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        z-index: 1;
+        width: 10em;
+        transition: all 1s;
+    }
+    button:focus img,
+    button:hover img {
+        position: absolute;
+        left: -4%;
+        top: -4%;
+        width: 300%;
+        z-index: 5;
+        box-shadow: 1px 1px 5px #333;
+        transition: all 1s;
+    }
+}

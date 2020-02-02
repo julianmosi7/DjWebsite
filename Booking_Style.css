@@ -1,0 +1,23 @@
+.booking{
+     padding-top: 0;
+     padding-bottom: 5rem;
+     margin: 0 auto;
+    text-align: center;
+ }
+
+.booking p{
+    font-size: 1rem;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.booked{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+#fr{
+    font-size: 1rem;
+}

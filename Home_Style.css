@@ -1,0 +1,281 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #404040;
+    font-family: 'Caviar Dreams', Arial, sans-serif;
+    font-size: 1.125rem;
+}
+
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    background-color: white;
+    margin: 0;
+}
+
+.menu_footer ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+#bild{
+    padding: 0;
+}
+
+.menu_footer li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 1em 1em;
+}
+
+.menu_footer li a:hover{
+    background-color: #454444;
+}
+@media (max-width : 30rem ){
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    #bio{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 2em 2.5em;
+        font-size: 30px;
+        margin-bottom: 0;
+        transition: all 0.5s ease;
+    }
+
+    #book{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 2em 2.5em;
+        font-size: 30px;
+        margin-bottom: 0;
+        transition: all 0.5s ease;
+    }
+
+    #photos{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 2em 2.5em;
+        font-size: 30px;
+        margin-bottom: 0;
+        transition: all 0.5s ease;
+    }
+
+}
+
+#bio{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 2em 2.5em;
+    font-size: 30px;
+    margin-bottom: 0;
+    transition: all 0.5s ease;
+
+}
+
+#book{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 2em 2.5em;
+    font-size: 30px;
+    margin-bottom: 0;
+    transition: all 0.5s ease;
+}
+
+#photos{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 2em 2.5em;
+    font-size: 30px;
+    margin-bottom: 0;
+    transition: all 0.5s ease;
+}
+
+
+#bio:hover{
+    padding-top: 3.6rem;
+    color: #b3c5ff;
+}
+
+#book:hover{
+    padding-top: 3.6rem;
+    color: #b3c5ff;
+}
+
+#photos:hover{
+    padding-top: 3.6rem;
+    color: #b3c5ff;
+}
+
+main{
+    font-size: 3rem;
+}
+
+footer{
+    background-color: #2f2e2e;
+}
+
+.gigs{
+    font-size: 2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+table{
+    margin: 0 auto;
+}
+
+td{
+    padding: 1rem;
+}
+
+.fab {
+    border-radius: 50%;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+
+.menu li:nth-child(5)
+{
+    margin-left: auto;
+}
+
+@media (max-width : 30rem ){
+
+    #it{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding-top: 2em;
+        padding-right: 2.5em;
+        font-size: 30px;
+        margin-bottom: 0;
+        transition: all 0.5s ease;
+    }
+
+    #sc{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding-top: 2em;
+        padding-right: 2.5em;
+        font-size: 30px;
+        margin-bottom: 0;
+        transition: all 0.5s ease;
+    }
+
+    #fb{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding-top: 2em;
+        padding-right: 2.5em;
+        font-size: 30px;
+        margin-bottom: 0;
+        transition: all 0.5s ease;
+    }
+}
+
+#it{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 2em;
+    padding-right: 2.5em;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    transition: all 0.5s ease;
+}
+
+#sc{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 2em;
+    padding-right: 2.5em;
+    font-size: 30px;
+    margin-bottom: 0;
+    transition: all 0.5s ease;
+}
+
+#fb{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 2em;
+    padding-right: 2.5em;
+    font-size: 30px;
+    margin-bottom: 0;
+    transition: all 0.5s ease;
+}
+
+#it:hover{
+    padding-top: 3.6rem;
+    color: #a16247;
+}
+
+#sc:hover{
+    padding-top: 3.6rem;
+    color: #ea7906;
+}
+
+#fb:hover{
+    padding-top: 3.6rem;
+    color: #b3c5ff;
+}
+
+#img:hover{
+    padding-top: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+.logo{
+    padding: 3.4em 2.5em;
+}
+
+.container{
+    text-align: center;
+}
+
+.inhalt{
+    font-size: 2rem;
+}
+
+.inhalt a{
+    text-decoration: none;
+}
+#big_picture{
+    width: 100%;
+}
