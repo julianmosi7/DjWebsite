@@ -59,21 +59,15 @@
 
 
 <main>
-    <nav class = "MainMenue">
-        <ul>
-            <li>
-                <img style="float: left;" src="images/img.png" height="600" width="600" id="ig"
-            </li>
-
-            <li>
-                <h5></h5>
-                <p style="font-size: 2.5rem">"2019 war für mich ein mega Jahr.
-                    <br> Nach auftritten auf dem Zeltfest Haizing <br> und dem Seefest Feldkirchen war ich mega <br> happy und motiviert für mehr. Ich freue mich auf 2020."</p>
-            </li>
-        </ul>
-
+    <nav class = "content">
+        <table>
+            <tr><th>2018</th><th>Maturaball HTL Grieskirchen</th></tr>
+            <tr><th>2019</th><th>Seefest Feldkirchen</th></tr>
+            <tr><th>2019</th><th>Zeltfest Haizing</th></tr>
+            <tr><th>2020</th><th>Maturaball Dachsberg</th></tr>
+            <tr><th>2020</th><th>Maturaball HAK Bad Ischl</th></tr>
+        </table>
     </nav>
-
 </main>
 
 

@@ -10,12 +10,8 @@
     margin-left: 4rem;
 }
 
-.MainMenue ul{
-    display: flex;
-    list-style-type: none;
+
+.content{
+    text-align: center;
 }
 
-.MainMenue li{
-    margin: 1rem;
-
-}

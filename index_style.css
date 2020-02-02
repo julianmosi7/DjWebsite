@@ -21,6 +21,7 @@ textarea {
     list-style-type: none;
     background-color: white;
     margin: 0;
+    border-bottom: 1px solid;
 }
 
 .menu_footer ul{
@@ -34,6 +35,7 @@ textarea {
 
 #bild{
     padding: 0;
+
 }
 
 .menu_footer li a{
@@ -259,6 +261,7 @@ td{
 
 h3{
     text-align: center;
+    border-bottom: 1px solid;
 }
 
 .logo{
@@ -278,4 +281,5 @@ h3{
 }
 #big_picture{
     width: 100%;
+
 }

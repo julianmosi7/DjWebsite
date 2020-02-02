@@ -4,29 +4,28 @@
     {
         $pdo = new PDO("mysql:host=localhost;dbname=dj_website", "root", "");
         $pdo->exec("set names utf8");
-        if(isset($_POST["firstname"]) && $_POST["firstname"] != ""){
+
             if(isset($_POST["lastname"]) && $_POST["lastname"] != ""){
                 if((isset($_POST["telephone"]) && $_POST["telephone"] != "") || (isset($_POST["email"]) && $_POST["email"] != "")){
                     if(isset($_POST["dateofshow"]) && $_POST["dateofshow"] != ""){
-                        $stmt = $pdo->prepare("INSERT INTO bookings (firstname, lastname, telephone, email, dateofshow, message) 
+                        $stmt = $pdo->prepare("INSERT INTO bookings (vorname, nachname, telefon, email, auftrittsdatum, nachricht) 
                                                          VALUES (:firstname, :lastname, :telephone, :email, :dateofshow, :message)");
                         $stmt -> execute(["firstname"=>$_POST["firstname"], "lastname"=>$_POST["lastname"],
                             "telephone"=>$_POST["telephone"], "email"=>$_POST["email"], "dateofshow"=>$_POST["dateofshow"], "message"=>$_POST["message"]]);
-                        booked();
+                        booked($pdo);
                     }
                 }
             }
-        }
+
 
     }
 
-    function booked(){
-        if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            echo "Danke für deine Anfrage";
+    function booked($pdo){
+        $fn = $pdo->query("SELECT vorname FROM bookings WHERE firstname == 'Julian'");
+        foreach ($fn as $row){
+            echo $row["vorname"];
         }
-
     }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
