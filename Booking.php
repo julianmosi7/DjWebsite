@@ -33,8 +33,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Unknownbeaz | Official Website</title>
-    <link rel="stylesheet" href="Home_Style.css">
-    <link rel="stylesheet" href="Booking_Style.css">
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="booking_style.css">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>

@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Unknownbeaz | Official Website</title>
-    <link rel="stylesheet" href="Home_Style.css">
-    <link rel="stylesheet" href="Biography_Style.css">
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="biography_style.css">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
           integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">

@@ -32,7 +32,7 @@ function getGigs()
     <meta charset="UTF-8">
     <title>Unknownbeaz | Official Website</title>
     <link rel="stylesheet" href="button.css">
-    <link rel="stylesheet" href="Home_Style.css">
+    <link rel="stylesheet" href="index_style.css">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
